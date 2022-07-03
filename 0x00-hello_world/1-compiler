@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc -c $CFILE
+[master 3e028a6] compile with out link
+ 1 file changed, 1 insertion(+), 1 deletion(-)
