@@ -1,2 +1,5 @@
-#!/bin/bash
-gcc $CFILE -o cisfun
+[master 8aee6c8] make it executible
+ 5 files changed, 52 insertions(+), 5 deletions(-)
+ create mode 100755 0x00-hello_world/3-name
+ create mode 100755 0x00-hello_world/a.out
+ create mode 100644 0x00-hello_world/test.s
