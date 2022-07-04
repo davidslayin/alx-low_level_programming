@@ -1,5 +1,2 @@
-[master (root-commit) 4d51cdd] 0-preprocessor task
- 3 files changed, 10 insertions(+)
- create mode 100755 0x00-hello_world/0-preprocessor
- create mode 100644 0x00-hello_world/README.md
- create mode 100644 0x00-hello_world/test.c
+#!/bin/bash
+gcc -E $CFILE -O C

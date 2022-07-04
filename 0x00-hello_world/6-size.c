@@ -1,17 +1,4 @@
-#include<stdio.h>
-
-/**
- * main- entry point
- *
- * printing the size of various types
- * Return: 0 after displaying the text
- */
-int main(void)
-{
-printf("Size of a char: %d byte(s)\n", sizeof(char));
-printf("Size of an int: %d byte(s)\n", sizeof(int));
-printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-printf("Size of a float: %d byte(s)\n", sizeof(float));
-return (0);
-}
+[master ed168c7] showing the size of different types
+ 3 files changed, 20 insertions(+), 13 deletions(-)
+ create mode 100644 0x00-hello_world/6-size.c
+ create mode 100755 0x00-hello_world/size32
