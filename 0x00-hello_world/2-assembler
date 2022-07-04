@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc $CFILE -S
+[master 70bca58] assemble code
+ 1 file changed, 1 insertion(+), 1 deletion(-)
