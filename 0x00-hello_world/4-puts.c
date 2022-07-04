@@ -2,7 +2,8 @@
 /**
  * main- entry point
  *
- * Returns: 0 after displaying text
+ *puts displaying a text
+ * Return: 0 after displaying text (success)
  */
 int main(void)
 {
