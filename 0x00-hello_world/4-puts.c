@@ -2,8 +2,9 @@
 /**
  * main - Entry point
  *
- * puts function displaying a text with a new line
- * return: 0 after printing function
+ * puts - function displaying a text with a new line
+ *
+ * Return:  0 after displaying the text (success)
  */
 int main(void)
 {
