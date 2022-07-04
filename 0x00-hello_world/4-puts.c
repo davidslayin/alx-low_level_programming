@@ -1,12 +1,2 @@
-#include<stdio.h>
-/**
- * main- entry point
- *
- *puts displaying a text
- * Return: 0 after displaying text (success)
- */
-int main(void)
-{
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
-}
+[master 03c2081] pring with puts
+ 1 file changed, 2 insertions(+), 1 deletion(-)
