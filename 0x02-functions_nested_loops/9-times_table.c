@@ -1,11 +1,9 @@
-#include "main.h"
-
 /**
- *times_table - time table
- */
+*times_table -> time table
+*/
 void times_table(void)
 {
-int x, y, k;
+	int x, y, k;
 
 	for (x = 0; x < 10; x++)
 	{
@@ -26,9 +24,8 @@ int x, y, k;
 				_putchar(' ');
 				_putchar((k / 10) + '0');
 				_putchar((k % 10) + '0');
-
 			}
-			}			}
-_putchar('\n');
-}
+		}
+		_putchar('\n');
+	}
 }
