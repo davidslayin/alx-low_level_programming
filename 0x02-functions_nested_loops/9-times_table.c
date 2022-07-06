@@ -29,6 +29,6 @@ int x, y, k;
 
 			}
 			}			}
--putchar('\n');
+_putchar('\n');
 }
 }
