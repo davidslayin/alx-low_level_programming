@@ -1,11 +1,12 @@
 #include "main.h"
+#include <sting.h>
 
 /**
  * rev_string - printing the string reversed
  * @s: string
  * Return: void is returned
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int i, max, half;
 	char first, last;
