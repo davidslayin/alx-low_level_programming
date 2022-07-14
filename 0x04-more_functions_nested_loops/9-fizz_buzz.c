@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 /**
  * main - entry point for fizz test
  *
@@ -12,7 +12,7 @@ int main(void)
 	{
 	if (i % 3 == 0)
 	{
-	printf("Fizz\n");
+	printf("Fizz \n");
 	}
 	else if (i % 5 == 0)
 	{
