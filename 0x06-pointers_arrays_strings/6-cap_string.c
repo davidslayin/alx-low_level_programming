@@ -1,32 +1,24 @@
 #include "main.h"
 /**
- * cap_string - capitalize the letters of a string
- * @str: parametr
- * Return: return str
+ * cap_string - making the letter capital
+ * @x: string param
+ * Return: capitalized version of the string
  */
-char *cap_string(char *str)
+char *cap_string(char *x)
 {
-	int i;
-
-for (i = 0; str[i] != '\0'; i++)
+char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+int len = 13;
+int a = 0, i;
+while (x[a])
 {
-if (i == 0)
+i = 0;
+while (i < len)
 {
-if ((str[i] >= 'a' && str[i] <= 'z'))
-str[i] = str[i] - 32;
-continue;
+if ((a == 0 || x[a -1] == spc[i]) && (x[a] >= 97 && x[a] <= 122))
+	x[a] = x[a] - 32;
+i++;
 }
-if (str[i] == '\n' || str[i] == '!' || str[i] == ',' || str[i] == ';' ||
-		str[i] == '.' || str[i] == '?' || str[i] == '"' ||
-		str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
-{
-++i;
-if (str[i] >= 'a' && str[i] <= 'z')
-{
-str[i] = str[i] - 32;
-continue;
+a++;
 }
-}
-}
-return (str);
+return (x);
 }
