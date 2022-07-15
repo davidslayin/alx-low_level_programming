@@ -1,5 +1,0 @@
-[master 8b46a4f] preprocessing task
- 4 files changed, 49 insertions(+), 7 deletions(-)
- rewrite 0x00-hello_world/1-compiler (100%)
- rewrite 0x00-hello_world/2-assembler (100%)
- rewrite 0x00-hello_world/3-name (100%)
