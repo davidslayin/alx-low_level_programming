@@ -14,5 +14,5 @@ for (i = 0; i < n; i++)
 {
 *s++ = b;
 }
-return s;
+return (s);
 }
