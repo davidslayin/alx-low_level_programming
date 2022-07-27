@@ -14,7 +14,10 @@ if (width <= 0 || height <= 0)
 	return (NULL);
 a = malloc(height * sizeof(int *));
 if (a == NULL)
+{
 	free(a);
+	return (NULL);
+}
 return (NULL);
 for (i = 0; i < height; i++)
 {
